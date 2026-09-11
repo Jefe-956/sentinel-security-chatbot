@@ -1,0 +1,64 @@
+{
+  "topics": [
+    {
+      "id": "phishing",
+      "label": "Spotting phishing",
+      "keywords": ["phishing", "phish", "scam email", "suspicious email", "fake email", "spoofed", "phishing email", "spot a phishing"],
+      "answer": "Here's how to spot a phishing email:\n\n• Mismatched sender domain (support@paypal-secure-billing.com ≠ paypal.com)\n• Urgency and threats: 'your account will be closed in 24 hours'\n• Generic greetings ('Dear Customer') instead of your name\n• Hover over links — the destination tells the truth, not the blue text\n• Unexpected attachments, especially .zip, .exe or macro-enabled Office files\n• Requests for passwords, MFA codes or gift cards — no real company asks\n\nRule of thumb: never click from the email. Open a new tab and go to the site directly."
+    },
+    {
+      "id": "passwords",
+      "label": "Strong passwords",
+      "keywords": ["strong password", "password", "passphrase", "password manager", "reuse password", "create password"],
+      "answer": "Strong password essentials:\n\n• Length beats complexity: 12–16+ characters minimum\n• Use a password manager (Bitwarden, 1Password, KeePass) so you only remember one master password\n• Every account gets a unique password — reuse is how one breach becomes ten\n• Prefer passphrases: 'correct-horse-battery-staple' style, four+ random words\n• Tip: send 'check password: yours' here and I'll analyse it and check it against known-breach databases."
+    },
+    {
+      "id": "mfa",
+      "label": "Multi-factor authentication",
+      "keywords": ["mfa", "2fa", "two factor", "two-factor", "multi factor", "authenticator", "otp", "authy", "sms code", "backup code"],
+      "answer": "Multi-factor authentication (MFA) is the single best upgrade for any account:\n\n• Something you know (password) + something you have (phone/key) + something you are (biometrics)\n• Best: an authenticator app (Authy, Google Authenticator) or a hardware key (YubiKey)\n• OK: email-based codes\n• Weakest: SMS codes — vulnerable to SIM-swapping, but still far better than nothing\n• Always save the backup/recovery codes somewhere safe (printed, in a safe, or in your password manager)\n• Turn MFA on for email first — your inbox is the reset key to everything else."
+    },
+    {
+      "id": "ransomware",
+      "label": "Ransomware",
+      "keywords": ["ransomware", "encrypted files", "ransom", "malware encrypted", "crypto locker"],
+      "answer": "Ransomware protection comes down to three layers:\n\n1. Prevention: keep systems updated, don't open unexpected attachments, use an ad-blocker, filter email attachments\n2. Backups — follow the 3-2-1 rule: 3 copies of important data, 2 different media, 1 kept offline/offsite. Offline backups are what makes ransomware survivable.\n3. Response: if hit, disconnect from the network immediately (physically unplug), don't pay (funds the next attack, no guarantee of decryption), and report it.\n\nFor an individual, backing up your Documents/Photos folders to an external drive kept unplugged covers most of the risk."
+    },
+    {
+      "id": "public_wifi",
+      "label": "Public Wi-Fi",
+      "keywords": ["public wifi", "wi-fi", "wifi", "hotspot", "coffee shop", "airport wifi", "cafe wifi", "evil twin"],
+      "answer": "Public Wi-Fi safety:\n\n• The main risks are 'evil twin' hotspots (attacker-run lookalike networks) and tools that snoop unencrypted traffic\n• Modern HTTPS covers most browsing, but the safest habit is a VPN (Mullvad, ProtonVPN) on any network you don't control\n• Never install a 'software update' or certificate prompted by a public network's captive portal\n• Turn off auto-connect to open networks\n• Save banking and logins for home. If you must, use your phone's hotspot instead — it's a far safer default."
+    },
+    {
+      "id": "social_engineering",
+      "label": "Social engineering",
+      "keywords": ["social engineering", "pretexting", "vishing", "smishing", "scam call", "phone scam", "text message scam", "impersonation"],
+      "answer": "Social engineering is hacking the human instead of the machine:\n\n• Pretexting: a fake scenario ('this is IT, I need your code') built to create urgency and authority\n• Smishing/vishing: the same tricks over SMS and phone calls\n• Defense: slow down, verify out-of-band. If 'your bank' calls, hang up and call the number on your card.\n• Real organizations never need your password, MFA code, or remote access to your computer\n• When in doubt, be comfortable being 'rude' — hanging up on a scammer is free."
+    },
+    {
+      "id": "breach_response",
+      "label": "Data breach response",
+      "keywords": ["data breach", "breach", "account compromised", "hacked", "leaked", "credential stuffing", "pwned", "what do i do if"],
+      "answer": "If your data shows up in a breach (check haveibeenpwned.com):\n\n1. Change that password immediately — and everywhere else you reused it (you weren't reusing, right?)\n2. Turn on MFA for the affected account if it wasn't already on\n3. Check for suspicious logins/forwarding rules in the account's security settings\n4. Watch for targeted phishing that references the leaked info — attackers use breach data to look legitimate\n5. For serious identity leaks (SSN, financial): freeze your credit with Equifax, Experian and TransUnion. It's free and you can unfreeze anytime.\n\nFreezing your credit is the single most protective step against identity theft in the US."
+    },
+    {
+      "id": "updates",
+      "label": "Updates and patching",
+      "keywords": ["update", "patch", "outdated", "software update", "zero day", "unpatched"],
+      "answer": "Updates are boring and important:\n\n• Most successful attacks exploit known, already-patched vulnerabilities — they succeed because someone skipped an update\n• Turn on auto-updates for your OS, browser, and phone\n• Restart when asked; many patches only apply on reboot\n• Uninstall software you don't use — every app is attack surface you maintain for free\n• Applies double to plugins/WordPress themes/extensions: they're the most-forgotten software people run."
+    },
+    {
+      "id": "vpn",
+      "label": "VPN basics",
+      "keywords": ["vpn", "encrypted tunnel", "do i need a vpn"],
+      "answer": "VPN reality check:\n\n• A VPN encrypts your traffic from your device to the VPN provider — it protects you from snooping on the local network, not from phishing, malware or account takeover\n• Choose a reputable, no-logs provider (Mullvad and ProtonVPN have good track records). Avoid 'free' VPNs — you're the product.\n• Most valuable when: public Wi-Fi, dodgy networks, hiding traffic from your ISP, remote work\n• Not magic: HTTPS already protects most of what you do; you still need MFA and a password manager."
+    },
+    {
+      "id": "safe_browsing",
+      "label": "Safe browsing",
+      "keywords": ["https", "padlock", "safe browsing", "browser security", "http", "certificate", "download", "pirated"],
+      "answer": "Safe browsing habits:\n\n• Look for HTTPS (the padlock) before entering anything — but remember: HTTPS means encrypted, not honest. Scam sites have valid HTTPS too.\n• Bookmark your banking/medical/government sites and navigate only via bookmarks\n• Watch lookalike domains: paypa1.com, amazon-secure.net, rnicrosoft.com\n• Never download 'free' versions of paid software — cracked software is a top malware delivery channel\n• Use a modern browser (Firefox or Brave) with an ad-blocker (uBlock Origin); malvertising is real\n• Keep extensions minimal — extensions can read everything on every page."
+    }
+  ]
+}

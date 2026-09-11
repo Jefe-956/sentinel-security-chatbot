@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sentinel — Security Awareness Chatbot</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <header>
+      <div class="logo">🛡 Sentinel</div>
+      <p class="tagline">Your friendly security-awareness assistant</p>
+    </header>
+    <main id="chat" aria-live="polite"></main>
+    <div class="chips" id="chips"></div>
+    <form id="composer" autocomplete="off">
+      <input id="input" type="text" placeholder="Ask about phishing, passwords, MFA…" aria-label="Message">
+      <button type="submit">Send</button>
+    </form>
+    <footer>Runs locally · Password checks use k-anonymity (your password never leaves this machine whole)</footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

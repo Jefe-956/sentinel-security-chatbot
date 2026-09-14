@@ -69,4 +69,4 @@ so the password itself never leaves the client machine in recoverable form.
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+see [LICENSE](LICENSE).
